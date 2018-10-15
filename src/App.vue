@@ -19,7 +19,12 @@
             <v-list-tile-title v-text="item.title"/>
           </v-list-tile-content>
         </v-list-tile>
-      </v-list>
+      </v-list>    
+      <v-footer 
+        class="footer" 
+        fixed>
+        <span>&nbsp;&nbsp;&copy; Jake made dis</span>
+      </v-footer>
     </v-navigation-drawer>
     <v-toolbar
       color="primary"
@@ -30,9 +35,7 @@
     <v-content>
       <landing/>
     </v-content>
-    <v-footer app>
-      <span>&copy; Jake made dis</span>
-    </v-footer>
+
   </v-app>
 </template>
 
@@ -53,3 +56,8 @@ export default {
   }
 }
 </script>
+<style scoped>
+.footer{
+  background: none;
+}
+</style>
