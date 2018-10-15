@@ -37,6 +37,13 @@
                 class="body-2">
                 <v-icon>mdi-facebook</v-icon>
               </v-btn>
+              <v-btn 
+                fab
+                icon
+                href="mailto:me@shadskii.io" 
+                class="body-2">
+                <v-icon>mdi-email</v-icon>
+              </v-btn>
             </v-layout>
           </div>
         </v-flex>
