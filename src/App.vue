@@ -3,7 +3,7 @@
     <v-navigation-drawer
       v-model="drawer"
       persistent
-      fixed 
+      fixed
       disable-resize-watcher
       app
     >
@@ -20,9 +20,9 @@
             <v-list-tile-title v-text="item.title"/>
           </v-list-tile-content>
         </v-list-tile>
-      </v-list>    
-      <v-footer 
-        class="footer" 
+      </v-list>
+      <v-footer
+        class="footer"
         fixed>
         <span>&nbsp;&nbsp;&copy; Jake made dis</span>
       </v-footer>
@@ -41,21 +41,21 @@
 </template>
 
 <script>
-import Landing from './components/Landing'
+import Landing from './components/Landing';
 
 export default {
   name: 'App',
   components: {
-    Landing
+    Landing,
   },
-  data () {
+  data() {
     return {
       drawer: false,
       items: [],
-      title: 'Shadskii.io'
-    }
-  }
-}
+      title: 'Shadskii.io',
+    };
+  },
+};
 </script>
 <style scoped>
 .footer{
