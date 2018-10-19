@@ -7,18 +7,17 @@
       disable-resize-watcher
       app
     >
-      <v-list>
+      <v-list two-line>
         <v-list-tile
-          v-for="(item, i) in items"
-          :key="i"
-          value="true"
+          v-for="(item) in items"
+          :key="item.name"
+          :href="item.url"
         >
-          <v-list-tile-action>
-            <v-icon v-html="item.icon"/>
-          </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title v-text="item.title"/>
+            <v-list-tile-title v-text="item.name"/>
+            <v-list-tile-sub-title v-text="item.description"/>
           </v-list-tile-content>
+
         </v-list-tile>
       </v-list>
       <v-footer
@@ -43,6 +42,22 @@
 <script>
 import Landing from './components/Landing';
 
+/**
+ * Object that will link to my apps
+ */
+class AppLink {
+  /**
+   * @param {String} name name of app
+   * @param {String} url url of app
+   * @param {String} description description of app
+   */
+  constructor(name, url, description) {
+    this.name = name;
+    this.url = url;
+    this.description = description;
+  }
+}
+
 export default {
   name: 'App',
   components: {
@@ -51,7 +66,10 @@ export default {
   data() {
     return {
       drawer: false,
-      items: [],
+      items: [
+        new AppLink('Crypto Stats', 'https://shadskii.github.io/crypto-stats/', 'Track your favorite cryptocurrencies!'),
+        new AppLink('Hungry Seals', 'https://shadskii.github.io/hungry-seals/', 'This dude eats fish'),
+      ],
       title: 'Shadskii.io',
     };
   },
