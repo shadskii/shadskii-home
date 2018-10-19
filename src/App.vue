@@ -69,6 +69,7 @@ export default {
       items: [
         new AppLink('Crypto Stats', 'https://shadskii.github.io/crypto-stats/', 'Track your favorite cryptocurrencies!'),
         new AppLink('Hungry Seals', 'https://shadskii.github.io/hungry-seals/', 'This dude eats fish'),
+        new AppLink('Boaty Boat', 'https://shadskii.github.io/boaty-boat/', 'Help Boaty Boat the boat survive his boating adventure'),
       ],
       title: 'Shadskii.io',
     };
