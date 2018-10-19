@@ -7,7 +7,7 @@
       disable-resize-watcher
       app
     >
-      <v-list two-line>
+      <v-list three-line>
         <v-list-tile
           v-for="(item) in items"
           :key="item.name"
@@ -70,6 +70,8 @@ export default {
         new AppLink('Crypto Stats', 'https://shadskii.github.io/crypto-stats/', 'Track your favorite cryptocurrencies!'),
         new AppLink('Hungry Seals', 'https://shadskii.github.io/hungry-seals/', 'This dude eats fish'),
         new AppLink('Boaty Boat', 'https://shadskii.github.io/boaty-boat/', 'Help Boaty Boat the boat survive his boating adventure'),
+        new AppLink('Jimmy Eats Dicks', 'https://shadskii.github.io/jimmy-eats-dicks/', 'Jimmy loves dicks'),
+        new AppLink('Jacob Loves Ding Dongs', 'https://shadskii.github.io/jacob-loves-ding-dong/', 'Jacob seriously loves ding dongs'),
       ],
       title: 'Shadskii.io',
     };
