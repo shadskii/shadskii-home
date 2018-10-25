@@ -15,7 +15,7 @@
         v-list-tile-content
           v-list-tile-title(v-text="item.name")
           v-list-tile-sub-title(v-text="item.description")
-    v-footer(class="footer" fixed)
+    v-footer(fixed).footer
       span &nbsp;&nbsp;&copy; Jake made dis
 </template>
 
@@ -66,3 +66,8 @@ export default {
   },
 };
 </script>
+<style scoped>
+.footer{
+  background: none;
+}
+</style>

@@ -28,7 +28,4 @@ export default {
 };
 </script>
 <style scoped>
-.footer{
-  background: none;
-}
 </style>
