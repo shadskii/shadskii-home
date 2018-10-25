@@ -1,30 +1,22 @@
-<template>
-  <v-navigation-drawer
+<template lang="pug">
+  v-navigation-drawer(
     v-model="model"
     persistent
     fixed
     disable-resize-watcher
     app
-  >
-    <v-list three-line>
-      <v-list-tile
+  )
+    v-list(three-line)
+      v-list-tile(
         v-for="(item) in items"
         :key="item.name"
         :href="item.url"
-      >
-        <v-list-tile-content>
-          <v-list-tile-title v-text="item.name"/>
-          <v-list-tile-sub-title v-text="item.description"/>
-        </v-list-tile-content>
-
-      </v-list-tile>
-    </v-list>
-    <v-footer
-      class="footer"
-      fixed>
-      <span>&nbsp;&nbsp;&copy; Jake made dis</span>
-    </v-footer>
-  </v-navigation-drawer>
+      )
+        v-list-tile-content
+          v-list-tile-title(v-text="item.name")
+          v-list-tile-sub-title(v-text="item.description")
+    v-footer(class="footer" fixed)
+      span &nbsp;&nbsp;&copy; Jake made dis
 </template>
 
 <script>
