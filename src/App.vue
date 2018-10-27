@@ -12,7 +12,6 @@
 import Landing from './components/Landing';
 import AppMenu from './components/AppMenu';
 
-
 export default {
   name: 'App',
   components: {
@@ -27,5 +26,3 @@ export default {
   },
 };
 </script>
-<style scoped>
-</style>
