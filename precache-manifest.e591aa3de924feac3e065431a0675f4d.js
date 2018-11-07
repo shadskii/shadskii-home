@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "13ec0eb5bdb821ff4930237d7c9f943f",
-    "url": "/shadskii-home/fonts/Roboto-MediumItalic.13ec0eb5.woff2"
+    "revision": "4357beb823a5f8d65c260f045d9e019a",
+    "url": "/shadskii-home/fonts/Roboto-RegularItalic.4357beb8.woff2"
   },
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "url": "/shadskii-home/robots.txt"
   },
   {
-    "revision": "4357beb823a5f8d65c260f045d9e019a",
-    "url": "/shadskii-home/fonts/Roboto-RegularItalic.4357beb8.woff2"
+    "revision": "13ec0eb5bdb821ff4930237d7c9f943f",
+    "url": "/shadskii-home/fonts/Roboto-MediumItalic.13ec0eb5.woff2"
   },
   {
     "revision": "3fdfc8be7cf843840c9e",
@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/shadskii-home/fonts/materialdesignicons-webfont.4b882ad4.woff"
   },
   {
-    "revision": "d15c1216957060fac577af6151fb8cfe",
-    "url": "/shadskii-home/fonts/materialdesignicons-webfont.d15c1216.ttf"
-  },
-  {
     "revision": "abb4e7492eaa88c31ff103064f2b2cba",
     "url": "/shadskii-home/fonts/materialdesignicons-webfont.abb4e749.eot"
+  },
+  {
+    "revision": "d15c1216957060fac577af6151fb8cfe",
+    "url": "/shadskii-home/fonts/materialdesignicons-webfont.d15c1216.ttf"
   },
   {
     "revision": "ae4dbede9d81a20c842b30332ab4e5b6",
@@ -52,24 +52,24 @@ self.__precacheManifest = [
     "url": "/shadskii-home/fonts/Roboto-Regular.73f0a88b.woff2"
   },
   {
-    "revision": "90d1676003d9c28c04994c18bfd8b558",
-    "url": "/shadskii-home/fonts/Roboto-Medium.90d16760.woff2"
-  },
-  {
     "revision": "b52fac2bb93c5858f3f2675e4b52e1de",
     "url": "/shadskii-home/fonts/Roboto-Bold.b52fac2b.woff2"
+  },
+  {
+    "revision": "90d1676003d9c28c04994c18bfd8b558",
+    "url": "/shadskii-home/fonts/Roboto-Medium.90d16760.woff2"
   },
   {
     "revision": "59eb3601394dd87f30f82433fb39dd94",
     "url": "/shadskii-home/fonts/Roboto-Black.59eb3601.woff2"
   },
   {
-    "revision": "e8eaae902c3a4dacb9a5062667e10576",
-    "url": "/shadskii-home/fonts/Roboto-LightItalic.e8eaae90.woff2"
-  },
-  {
     "revision": "5b4a33e176ff736a74f0ca2dd9e6b396",
     "url": "/shadskii-home/fonts/Roboto-ThinItalic.5b4a33e1.woff2"
+  },
+  {
+    "revision": "e8eaae902c3a4dacb9a5062667e10576",
+    "url": "/shadskii-home/fonts/Roboto-LightItalic.e8eaae90.woff2"
   },
   {
     "revision": "4aaf59fc92c6a7348d15",
@@ -96,12 +96,12 @@ self.__precacheManifest = [
     "url": "/shadskii-home/fonts/Roboto-Light.c73eb1ce.woff"
   },
   {
-    "revision": "1d6594826615607f6dc860bb49258acb",
-    "url": "/shadskii-home/fonts/Roboto-Medium.1d659482.woff"
-  },
-  {
     "revision": "35b07eb2f8711ae08d1f58c043880930",
     "url": "/shadskii-home/fonts/Roboto-Regular.35b07eb2.woff"
+  },
+  {
+    "revision": "1d6594826615607f6dc860bb49258acb",
+    "url": "/shadskii-home/fonts/Roboto-Medium.1d659482.woff"
   },
   {
     "revision": "50d75e48e0a3ddab1dd15d6bfb9d3700",
