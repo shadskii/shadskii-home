@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/shadskii-home/precache-manifest.e591aa3de924feac3e065431a0675f4d.js"
+  "/precache-manifest.5dc1ee525793606bebe1f1dc1c64c065.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "shadskii-home"});
