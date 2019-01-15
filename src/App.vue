@@ -1,9 +1,9 @@
 <template lang="pug">
   v-app(dark)
     app-menu(v-model="drawer")
-    v-toolbar(color="primary" app)
-      v-toolbar-side-icon(@click.stop="drawer = !drawer")
-      v-toolbar-title(v-text="title")
+    //- v-toolbar(color="primary" app)
+    //-   v-toolbar-side-icon(@click.stop="drawer = !drawer")
+    //-   v-toolbar-title(v-text="title")
     v-content
       landing
 </template>
@@ -26,3 +26,9 @@ export default {
   },
 };
 </script>
+<style>
+body{
+  background-color: #303030;
+}
+</style>
+
